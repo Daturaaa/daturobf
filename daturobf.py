@@ -63,7 +63,7 @@ Drag and drop your file here! (●'◡'●)
             obf4 = base64.b16encode(obf3)
             print('[+] Obfuscated with b16')
             obf5 = base64.b64encode(obf4)
-            print('[+] Obfuscaeted with b64')
+            print('[+] Obfuscated with b64')
             obf6 = base64.b85encode(obf5)
             print('[+] Obfuscated with b85')
             with open('./obfuscated.py', 'w') as i:
